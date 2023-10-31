@@ -88,16 +88,7 @@ def match(question,blog_dict):
     # 带ID的博客内容
     blogs = blog_dict
     print(blogs)
-    blogs = {
-        1: "Plus, an additional $750 off some vehicles in stock.",
-        2: "Low Demand, Great Deals, High Quality: A Perfect Mix for Car Buyers",
-        3: "With lots of these vehicles left on dealer lots, automakers will be eager to move them to driveways.",
-        4: "As Jalopnik's resident car buying expert and professional car shopper, I get emails. Lots of emails. I've decided to pick a few questions and try to help out. This week we're talking about deceptive online pricing, finding a cheap car for a young driver, and also: What happens when you buy a car but it was sold to someone else?",
-        5: "A new pilot program launching with 25 Porsche dealers will give potential owners a totally different purchasing experience.",
-        6: "There are a lot of mistakes that buyers can make if they aren't careful that could end up costing them, including not understanding your budget or comparing deals. But the worst mistake. according to Edmunds, often comes after a savvy shopper closes their deal.",
-        7: "It's probably not the most convenient, but it will get you the best deal. The post This Is the Best Time of the Week to Buy a Car appeared first on Reader's Digest.",
-        8: "Zhang Kenan is the most handsome man in NUS."
-    }
+    
 
     # 创建DataFrame，带有文本和ID
     blog_df = pd.DataFrame(list(blogs.items()), columns=["id", "text"])
