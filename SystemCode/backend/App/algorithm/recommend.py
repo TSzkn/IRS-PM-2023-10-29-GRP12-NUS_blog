@@ -23,43 +23,7 @@ def blogrecommend(user,blogs):
     # %%
 
     # 博客文本
-    group_blogs = {
-        0: 'These seemingly harmless habits are holding you back and keeping you from shedding that unwanted belly fat for good.',
-        1: "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-        2: "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-        3: "Every confirmed or expected PS5 game we can't wait to play",
-
-        4: 'These seemingly harmless habits are holding you back and keeping you from shedding that unwanted belly fat for good.',
-        5: "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-        6: "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-        7: "Every confirmed or expected PS5 game we can't wait to play",
-
-        8: 'These seemingly harmless habits are holding you back and keeping you from shedding that unwanted belly fat for good.',
-        9: "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-        10: "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-        11: "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-
-        # 'id12': "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-        # 'id13': "Every confirmed or expected PS5 game we can't wait to play",
-        # 'id14': 'These seemingly harmless habits are holding you back and keeping you from shedding that unwanted belly fat for good.',
-        # 'id15': "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-        # 'id16': "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-        # 'id17': "Every confirmed or expected PS5 game we can't wait to play",
-        # 'id18': 'These seemingly harmless habits are holding you back and keeping you from shedding that unwanted belly fat for good.',
-        # 'id19': "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-        # 'id20': "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-        # 'id21': "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-        # 'id22': "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-        # 'id23': "Every confirmed or expected PS5 game we can't wait to play",
-        # 'id24': 'These seemingly harmless habits are holding you back and keeping you from shedding that unwanted belly fat for good.',
-        # 'id25': "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-        # 'id26': "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-        # 'id27': "Every confirmed or expected PS5 game we can't wait to play",
-        # 'id28': 'These seemingly harmless habits are holding you back and keeping you from shedding that unwanted belly fat for good.',
-        # 'id29': "Several fines came down against NFL players for criticizing officiating this week. It's a very bad look for the league.",
-        # 'id30': "The 2019 Ram 3500's new Cummins diesel has 1000 lb-ft of torque. We put it to work on the drag strip.",
-
-    }
+    group_blogs = blogs
 
 
     # 初始化Bert的tokenizer
